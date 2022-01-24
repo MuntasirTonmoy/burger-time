@@ -41,7 +41,7 @@
                 </div>
             </nav>
         </section>
-        <section class="container pb-5">
+        <section class="container pb-4">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -102,7 +102,7 @@
     </header>
     <main>
         <section class="container-fluid mt-5 pt-5">
-            <h2 class="title-font text-center"> Our Packages</h2>
+            <h1 class="title-font text-center pt-5" id="order"> Our Packages</h1>
             <div class="toast show ms-auto me-2 border-5 border-primary border-end-0 border-top-0 border-bottom-0"
                 role="alert" aria-live="assertive" aria-atomic="true">
                 <div class="d-flex ps-2">
@@ -114,10 +114,10 @@
                         aria-label="Close"></button>
                 </div>
             </div>
-            <div class="p-5" id="order">
+            <div class="p-5">
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 row-cols-sm-1 g-4 ">
                     <div class="col">
-                        <div class="card h-100 light px-3 rounded-3 mb-5 border-0">
+                        <div class="card h-100 shadow-sm light px-3 rounded-3 mb-5 border-0">
                             <div class="card-body">
                                 <h1 class="card-title">$25</h1>
                                 <div class="card-text">
@@ -151,7 +151,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 light px-3 rounded-3 mb-5 border-0">
+                        <div class="card h-100 shadow-sm light px-3 rounded-3 mb-5 border-0">
                             <div class="card-body">
                                 <h1 class="card-title">$25</h1>
                                 <div class="card-text">
@@ -185,7 +185,8 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-primary text-white p-3 rounded-3 mb-5 position-relative">
+                        <div
+                            class="card h-100 package-shadow bg-primary text-white px-3 rounded-3 mb-5 position-relative">
                             <span
                                 class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-danger">
                                 Hot Deal
@@ -213,24 +214,14 @@
                                                 d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                         </svg> Beef Burger
                                     </p>
-                                    <p><svg xmlns="http://www.w3.org/2000/svg" width="20px" fill="#0D6EFD"
-                                            viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                        </svg> Salad
-                                    </p>
+
                                     <p><svg xmlns="http://www.w3.org/2000/svg" width="20px" fill="#0D6EFD"
                                             viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                 d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                         </svg> Extra sauce
                                     </p>
-                                    <p><svg xmlns="http://www.w3.org/2000/svg" width="20px" fill="#0D6EFD"
-                                            viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                        </svg> French fry
-                                    </p>
+
                                     <p><svg xmlns="http://www.w3.org/2000/svg" width="20px" fill="#0D6EFD"
                                             viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -246,7 +237,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 light px-3 rounded-3 mb-5 border-0">
+                        <div class="card h-100 shadow-sm light px-3 rounded-3 mb-5 border-0">
                             <div class="card-body">
                                 <h1 class="card-title">$25</h1>
                                 <div class="card-text">
@@ -279,6 +270,100 @@
                                     Now</div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container mt-5 pt-5 mb-t pb-5">
+            <h1 class="title-font text-center">Frequently Asked Question</h1>
+            <div class="row row-cols-lg-2 row-cols-md-2 row-cols-1 mt-5">
+                <div class="co">
+                    <div class="d-flex justify-content-center"><img src="images/faq.svg" width="350px" alt=""></div>
+                </div>
+                <div class="col">
+                    <div class="pt-5">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Accordion Item #1
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the first item's accordion body.</strong> It is shown by
+                                        default,
+                                        until the collapse plugin adds the appropriate classes that we use to style
+                                        each
+                                        element. These classes control the overall appearance, as well as the
+                                        showing
+                                        and
+                                        hiding via CSS transitions. You can modify any of this with custom CSS or
+                                        overriding
+                                        our default variables. It's also worth noting that just about any HTML can
+                                        go
+                                        within
+                                        the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Accordion Item #2
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the second item's accordion body.</strong> It is hidden by
+                                        default,
+                                        until the collapse plugin adds the appropriate classes that we use to style
+                                        each
+                                        element. These classes control the overall appearance, as well as the
+                                        showing
+                                        and
+                                        hiding via CSS transitions. You can modify any of this with custom CSS or
+                                        overriding
+                                        our default variables. It's also worth noting that just about any HTML can
+                                        go
+                                        within
+                                        the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Accordion Item #3
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the third item's accordion body.</strong> It is hidden by
+                                        default,
+                                        until the collapse plugin adds the appropriate classes that we use to style
+                                        each
+                                        element. These classes control the overall appearance, as well as the
+                                        showing
+                                        and
+                                        hiding via CSS transitions. You can modify any of this with custom CSS or
+                                        overriding
+                                        our default variables. It's also worth noting that just about any HTML can
+                                        go
+                                        within
+                                        the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
