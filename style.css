@@ -4,12 +4,13 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 .title-font{
     font-family: 'Bebas Neue', cursive;
 }
 
-.carousel-banner{
-    height: calc(100vh - 92px);
+.top{
+    height: 100vh;
 }
