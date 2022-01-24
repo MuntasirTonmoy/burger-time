@@ -1,0 +1,11 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Beastly&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.title-font{
+    font-family: 'Bebas Neue', cursive;
+}
