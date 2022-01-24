@@ -9,3 +9,7 @@ body{
 .title-font{
     font-family: 'Bebas Neue', cursive;
 }
+
+.carousel-banner{
+    height: calc(100vh - 92px);
+}
