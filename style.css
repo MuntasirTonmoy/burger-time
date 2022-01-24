@@ -10,7 +10,9 @@ body{
 .title-font{
     font-family: 'Bebas Neue', cursive;
 }
-
+ a{
+     text-decoration: none;
+ }
 .discount{
     color: rgb(235, 68, 102);
 }
